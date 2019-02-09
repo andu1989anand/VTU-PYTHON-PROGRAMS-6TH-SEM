@@ -1,11 +1,6 @@
-def computepay(h,r):
-    if h>40:
-        return h*r*1.5
-    else:
-        return h*r
+""" program to find gross pay of a user """
 
-
-hour=input("enter hours")
-rate=input("enter rate")
-result=computepay(hour,rate)
-print 'gross pay=',result
+hours=input("enter number of hours:");
+rate=input("enter rate per hour:");
+total=hours*rate
+print "total gross pay is:",total
